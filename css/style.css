@@ -91,6 +91,7 @@
 
 .app_content_listcate_item.active {
     color: black;
+    font-weight: bold;
 }
 
 .app_content_producttitle {
@@ -322,10 +323,13 @@
 
 .app_content_review_chat {
     display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .app_content_review_chat_item {
     width: 50%;
+    padding-right: 40px;
 }
 
 .app_content_review_chat_item_brand {
@@ -362,4 +366,72 @@
 .app_content_review_chat_item_conten {
     margin-top: 20px;
     margin-bottom: 40px;
+}
+
+.app_content_related_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.app_content_related_header_list {
+    display: flex;
+    padding-bottom: 100px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app_content_related_header_item {
+    width: 25%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0 10px;
+}
+
+.app_content_related_header_item-img {
+    width: 100%;
+}
+
+.app_content_related_header_item_name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.app_content_related_header_item_title {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.app_content_related_header_item_icon {
+
+}
+
+.app_content_related_header_item_price {
+    display: block;
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 16px;
+    color: rgb(14, 221, 221);
+    font-weight: bold;
+}
+
+.app_content_related_header_item_rank {
+    margin-top: 10px;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.app_content_related_header_item_star {
+
+}
+
+.app_content_related_header_item_bougth {
+    font-size: 12px;
+    color: #666;
 }
