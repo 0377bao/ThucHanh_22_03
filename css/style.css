@@ -64,3 +64,302 @@
 .app_header_left_item-icon {
     padding: 0 11px;
 }
+
+.wide {
+    margin: 0 150px;
+}
+
+.app_content {}
+
+.app_content_listcate {
+    margin-top: 50px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.app_content_listcate_item {
+    display: inline-flex;
+    padding: 10px;
+    color: #666;
+    justify-content: left;
+}
+
+.app_content_listcate_item:nth-child(1) {
+    padding-left: 0;
+}
+
+.app_content_listcate_item.active {
+    color: black;
+}
+
+.app_content_producttitle {
+    margin-top: 15px;
+    font-size: 50px;
+    font-weight: 750;
+}
+
+.app_content_rank {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+
+.app_content_rank-groupstar {
+    display: flex;
+    align-items: center;
+}
+
+.app_content_rank_star {
+    width: 105px;
+    margin-right: 3px;
+}
+
+.app_content_rank_point {
+    margin-right: 3px;
+    font-weight: 600;
+}
+
+.app_content_rank_review {
+    color: #666;
+}
+
+.app_content_rank-groupbtn {
+    display: flex;
+    align-items: center;
+}
+
+.app_content_rank-groupbtn_btn {
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+}
+
+.app_content_rank-groupbtn_btn:nth-child(2) {
+    margin: 0;
+}
+
+.app_content_rank-groupbtn_btn img {
+    width: 20px;
+    margin-right: 8px;
+}
+
+.app_content_slide {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_content_slide_left {
+    width: 50%;
+    padding-right: 10px;
+}
+
+.app_content_slide_left img {
+    width: 100%;
+    height: 100%;
+}
+
+.app_content_slide_right {
+    width: 50%;
+}
+
+.app_content_slide_right_group {
+    display: flex;
+}
+
+.app_content_slide_right_group:nth-child(2) {
+    margin-top: 20px;
+}
+
+.app_content_slide_right_group img {
+    padding: 0 10px;
+    width: 50%;
+}
+
+.app_content_slide_right_group img:nth-child(2) {
+    padding-right: 0;
+}
+
+.app_content_productdescrip {
+    margin-top: 50px;
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app_content_productdescrip_left {
+    width: 70%;
+}
+
+.app_content_productdescrip_title {
+    font-size: 30px;
+}
+
+.app_content_productdescrip_title_des {
+    margin-top: 20px;
+    color: #444;
+    line-height: 1.4;
+}
+
+.app_content_productdescrip_list {
+    display: flex;
+    margin-top: 35px;
+}
+
+.app_content_productdescrip_listgroup {
+    display: flex;
+    flex-direction: column;
+    margin-right: 40px;
+}
+
+.app_content_productdescrip_list_item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.app_content_productdescrip_list_item img {
+    margin-right: 8px;
+}
+
+.app_content_productdescrip_right {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.app_content_productdescrip_price {
+    text-align: right;
+    color: rgb(14, 221, 221);
+    margin-bottom: 20px;
+}
+
+.app_content_productdescrip_selec {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.05);
+    border: none;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.app_content_productdescrip_total {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.app_content_productdescrip_selec_title {
+    color: #666;
+}
+
+.app_content_productdescrip_selec_money {
+    font-weight: bold;
+}
+
+.app_content_productdescrip_right_buynow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgb(14, 221, 221);
+    color: white;
+    margin-bottom: 15px;
+}
+
+.app_content_productdescrip_right_add {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid rgb(14, 221, 221);
+    color: rgb(14, 221, 221);
+}
+
+.app_content_review {
+    margin-top: 50px;
+}
+
+.app_content_review_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.app_content_review_ranking {
+    display: flex;
+    align-items: center;
+}
+
+.app_content_review_ranking_title {
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.app_content_review_ranking_img {
+    margin-right: 10px;
+}
+
+.app_content_review_ranking_potin {
+    margin-right: 6px;
+    font-weight: bold;
+}
+
+.app_content_review_ranking_review {
+    color: #444;
+}
+
+.app_content_review_show {
+    color: #444;
+}
+
+.app_content_review_chat {
+    display: flex;
+}
+
+.app_content_review_chat_item {
+    width: 50%;
+}
+
+.app_content_review_chat_item_brand {
+    display: flex;
+}
+
+.app_content_review_chat_item_avt {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.app_content_review_chat_item_des {
+    display: flex;
+    flex-direction: column;
+}
+
+.app_content_review_chat_item-name {
+    font-weight: bold;
+}
+
+.app_content_review_chat_item-hour {
+    margin-left: 5px;
+    font-weight: normal;
+    font-size: 13px;
+    color: #666;
+}
+
+.app_content_review_chat_item_star {
+    margin-top: 5px;
+    width: 80px;
+}
+
+.app_content_review_chat_item_conten {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
