@@ -5,6 +5,10 @@
     font-family: sans-serif;
 }
 
+ul,ol {
+    margin: 0;
+}
+
 .app {}
 
 .app_header {
@@ -15,10 +19,10 @@
     justify-content: space-between;
 }
 
-.app_header_list {
+/* .app_header_list {
     list-style: none;
     display: flex;
-}
+} */
 
 .app_header_left_item {
     display: flex;
@@ -232,11 +236,11 @@
     border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-.app_content_productdescrip_price {
+/* .app_content_productdescrip_price {
     text-align: right;
     color: rgb(14, 221, 221);
     margin-bottom: 20px;
-}
+} */
 
 .app_content_productdescrip_selec {
     width: 100%;
@@ -264,35 +268,22 @@
 }
 
 .app_content_productdescrip_right_buynow {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
-    border-radius: 5px;
-    background-color: rgb(14, 221, 221);
-    color: white;
-    margin-bottom: 15px;
 }
 
 .app_content_productdescrip_right_add {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     height: 50px;
-    border-radius: 5px;
-    border: 1px solid rgb(14, 221, 221);
-    color: rgb(14, 221, 221);
 }
 
 .app_content_review {
     margin-top: 50px;
 }
 
-.app_content_review_header {
+/* .app_content_review_header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-}
+} */
 
 .app_content_review_ranking {
     display: flex;
@@ -471,12 +462,8 @@
 .app_footer_inputgroup_btn {
     display: inline-block;
     height: 35px;
-    background-color: rgb(14, 221, 221);
     line-height: 35px;
     width: 110px;
-    border-radius: 3px;
-    color: white;
-    font-size: 14px;
 }
 
 .app_footer_desbrand {
